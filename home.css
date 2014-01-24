@@ -1,0 +1,53 @@
+/*layout*/
+
+html {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF
+}
+
+body {
+    width: 940px;
+    margin: 0 auto;
+    font: 10pt/1.5em Courier New;
+}
+
+/*HTML 5 specific*/
+header,section,article,aside,footer{
+    display: block;
+}
+
+#name{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #33b5e5;
+    font-family: "Courier New";
+    font-weight:lighter;
+}
+
+nav {
+    float: left;
+    width: 160px;
+    min-height: 480px;
+    margin: 0 0 20px 0;
+    padding-left: 20px;
+    font-size: 12pt;
+}
+
+section {
+    float: left;
+    width: 428px;
+    padding-left: 20px;
+    margin: 0 0 20px 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {color: #33b5e5;}
