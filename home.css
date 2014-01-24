@@ -35,6 +35,7 @@ header,section,article,aside,footer{
     }
     section {
         margin-left: 20%;
+        margin-right: 20px;
     }
 }
 @media screen and (max-width:599px) {
@@ -43,6 +44,7 @@ header,section,article,aside,footer{
     }
     section {
         margin-left: 20px;
+        margin-right: 10px;
     }
 }
 
