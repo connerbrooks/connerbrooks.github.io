@@ -6,8 +6,12 @@ html {
     background: #FFFFFF
 }
 
+.container {
+    position: relative;
+}
+
 body {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
     font: 10pt/1.5em Courier New;
 }
@@ -24,21 +28,22 @@ header,section,article,aside,footer{
     font-family: "Courier New";
     font-weight:lighter;
 }
-
-nav {
-    float: left;
-    width: 160px;
-    min-height: 480px;
-    margin: 0 0 20px 0;
-    padding-left: 20px;
-    font-size: 12pt;
+@media screen and (min-width:600px) {
+    nav {
+        float: left;
+        width: 20%;
+    }
+    section {
+        margin-left: 20%;
+    }
 }
-
-section {
-    float: left;
-    width: 428px;
-    padding-left: 20px;
-    margin: 0 0 20px 0px;
+@media screen and (max-width:599px) {
+    nav li {
+        display: inline;
+    }
+    section {
+        margin-left: 20px;
+    }
 }
 
 ul {
