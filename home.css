@@ -1,5 +1,4 @@
 /*layout*/
-
 html {
     margin: 0;
     padding: 0;
@@ -14,12 +13,35 @@ body {
     max-width: 940px;
     margin: 0 auto;
     font: 10pt/1.5em Courier New;
-    height: 1500px;
 }
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {color: #33b5e5;}
 
 /*HTML 5 specific*/
 header,section,article,aside,footer{
     display: block;
+}
+
+section {
+    position: relative;
+}
+
+#main_content {
+    height: 100%;
+}
+
+#main_content {
+    height: 100%;
 }
 
 #name{
@@ -27,8 +49,10 @@ header,section,article,aside,footer{
     padding-top: 10px;
     color: #33b5e5;
     font-family: "Courier New";
+
     font-weight:lighter;
 }
+
 @media screen and (min-width:600px) {
     nav {
         float: left;
@@ -48,14 +72,3 @@ header,section,article,aside,footer{
         margin-right: 10px;
     }
 }
-
-ul {
-    list-style-type: none;
-    padding-left: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {color: #33b5e5;}
